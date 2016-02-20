@@ -5,6 +5,9 @@ import Html exposing (..)
 import Html.Attributes exposing (..)
 import Html.Events exposing (..)
 
+bug = { Counter.myData | value = 4 }
+workaround = Counter.myData
+workaroundUsage = { workaround | value = 4 }
 
 -- MODEL
 

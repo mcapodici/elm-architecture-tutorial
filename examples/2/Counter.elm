@@ -7,6 +7,8 @@ import Html.Events exposing (onClick)
 
 -- MODEL
 
+myData = { value = 3 }
+
 type alias Model = Int
 
 
